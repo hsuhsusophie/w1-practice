@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Castoro, serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+//header
+
+
+.header-name {
+  padding-left: 312px;
+  padding-top: 160px;
+}
+
+.header-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.header-resume{
+text-align:end;
+}
+
+.header h1, h2 {
+    color: #000;
+    font-family: Castoro, serif;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 192px;
+    letter-spacing: 15.36px;
+
+  }
+  .header-text {
+color: #000;
+font-family: Castoro, serif;
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: 192px;
+letter-spacing: 15.36px;
+  }
+
+  .aboutMe {
+    background: #efefef;
+    padding: 48px 0;
+
+  }
+  
+  .about-text{
+  font-size: 32px;
+  width: 50%;
+  margin-left: auto;
+  color: #000;
+font-family: Castoro;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+}
+
+//info
+.infoContainer {
+  font-size: 24px;
+  padding: 80px 0 120px 0;
+}
+
+.info-Name {
+  width: 636px;
+  color: #ae0000;
+  font-size: 40px;
+  margin-bottom: 16px;
+  border-bottom: 3px solid #ae0000;
+}
+
+.info-detail, .info-education, .info-work , .info-awards{
+  width: 636px;
+  margin-bottom: 40px;
+}
+
+.info-detail li{
+  margin-bottom: 8px;
+}
+
+.info-education li{
+margin-bottom: 16px;
+}
+
+.info-work li{
+  margin-bottom: 16px;
+}
+
+.info-awards li{
+  margin-bottom: 12px;
+
+}
+
+.info-link{
+  color: #000;
+
+}
+
+.info-year {
+  color: #949494;
+  font-size: 20px;
+  font-style: italic;
+}
+
+//contact
+
+footer {
+  background-color: #000;
+  padding: 64px 0px;
+  display: inline-block;
+}
+
+a{
+    padding: 0px 20px;
+    align-items:center;
+    
+}
+
+
+.contact-body {
+ margin: o auto;
+  padding: 64px 0;
+  background-color: #000000;
+  text-align:center;
+  margin:0 auto;
+
+
+} 
+
